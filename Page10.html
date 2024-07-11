@@ -1,0 +1,512 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+	"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <title>Modelo Conceptual CLD</title>
+   <script language="JavaScript" type="text/JavaScript" src="Res/code/shared.js"></script>
+   <script language="JavaScript" type="text/JavaScript" src="Res/code/boxController.js"></script>
+   <script language="JavaScript" type="text/JavaScript" src="Res/code/boxSettings.js"></script>
+   <link href="Res/styles/shared.css" rel="stylesheet" type="text/css">
+   <link href="Res/styles/StaticOutline.css" rel="stylesheet" type="text/css">
+</head>
+<body id="page" onload="init()">
+<!-- BEGIN PAGE HEADER -->
+<table id="pageHeader">
+   <tr>
+      <td class="left" rowspan="3">
+         <a class="noHover" href="index.html" target="_parent">
+         <img src="Res/images/logo.gif" alt=""></a> 
+      </td>
+      <td class="right">
+<!-- BEGIN TOOLS UTILITIES--> 
+<div class="utilities">
+  <span class="command">
+    <a href="index.html" target="_parent">
+      <span class="label">Inicio</span>
+    </a>
+  </span>
+<span class="utilities_toc">
+|
+  <span class="command">
+    <a href="contents.htm" target="_parent">
+      <span class="label">Contenido</span>
+    </a>
+  </span>
+</span>
+
+
+</div>
+<!-- END TOOLS UTILITIES--> 
+
+      </td>
+   </tr>
+   <tr>
+      <td class="right">
+        <div class="mapName">Introducción a Sistemas y Simulación de sus Dinámicas.</div>
+      </td>
+   </tr>
+   <tr>
+      <td class="right">
+        <div class="contactInformation">Maestría en Producción de Rumiantes Menores. INTA EEA Bariloche - Univ. Nac. del Comahue Fac. Cs Agrarias - Univ. Nac de Rosario Fac. Cs. Agrarias&nbsp;&nbsp;<a href="mailto:letourneau.federico@inta.gob.ar">letourneau.federico@inta.gob.ar</a></div>
+      </td>
+   </tr>
+</table>
+<!-- END PAGE HEADER -->
+
+<!-- BEGIN PAGE BODY-->
+
+<!-- BEGIN SIDE NAVIGATION WRAPPER-->
+<table>
+  <tr>
+    <td class="outlineColumn">
+    <!-- Ensure minimum width of outline-->
+    <img class="emptyImage" src="Res/images/empty.gif" 
+        width="190" height="1" alt=""><br>									
+<!-- STATIC OUTLINE - START -->
+  <div class="staticOutline">
+  <div class="hometopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="index.html">&nbsp;Inicio&nbsp;</a></span>
+  </div>
+  <div class="maintopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page2.html">&nbsp;1. CRONOGRAMA DE CLASES&nbsp;</a></span>
+  </div>
+  <div class="maintopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page3.html">&nbsp;2. REDUCCIONISMO VS HOLISMO?&nbsp;</a></span>
+  </div>
+  <div class="maintopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page4.html">&nbsp;3. PROBLEMAS SENCILLOS VS COMPLEJOS&nbsp;</a></span>
+  </div>
+  <div class="maintopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page5.html">&nbsp;4. EL PENSAMIENTO EN SISTEMAS&nbsp;</a></span>
+  </div>
+  <div class="maintopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page6.html">&nbsp;5. CONCEPTOS SOBRE SISTEMAS&nbsp;</a></span>
+  </div>
+  <div class="maintopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page7.html">&nbsp;6. UN EJEMPLO&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="LinkedDocuments/modeloPehuen.pdf">&nbsp;Diagramas del modelo&nbsp;</a></span>
+  </div>
+  <div class="maintopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page9.html">&nbsp;7. EL MÉTODO&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="select"><a href="Page10.html">&nbsp;Modelo Conceptual CLD&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page11.html">&nbsp;Modelo Computacional&nbsp;</a></span>
+  </div>
+  <div class="maintopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page12.html">&nbsp;8. INSIGHT MAKER&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page13.html">&nbsp;Que es insight maker ??&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page14.html">&nbsp;Como funciona Insight Maker&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page15.html">&nbsp;La interfaz&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="https://insightmaker.com/docs/diagramming">&nbsp;Model Diagramming&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="https://insightmaker.com/docs/simulating">&nbsp;Running a model&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page18.html">&nbsp;Disease Dynamics (SD)&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page19.html">&nbsp;Predator Prey Interactions (SD)&nbsp;</a></span>
+  </div>
+  <div class="maintopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page20.html">&nbsp;9. USEMOS EL MACROSCOPIO&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="LinkedDocuments/The-Macroscope.pdf">&nbsp;TEXTO COMPLETO&nbsp;</a></span>
+  </div>
+  <div class="maintopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page22.html">&nbsp;10. RECURSOS&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page23.html">&nbsp;System Dynamic Society&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page24.html">&nbsp;MIT Sloan Management&nbsp;</a></span>
+  </div>
+  <div class="maintopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page25.html">&nbsp;11. BIBLIOGRAFÍA&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="LinkedDocuments/tallerJunio2015IES_Territorios_Forestales.ppt">&nbsp;Taller Junio 2015&nbsp;</a></span>
+  </div>
+
+  </div>
+<!-- STATIC OUTLINE - END -->
+
+    </td>
+    <td class="bodyColumn">
+<!-- END SIDE NAVIGATION WRAPPER-->
+
+<table id="pageBody">
+ <col class="main">
+ <col class="right">
+
+
+<!--BEGIN PAGE BODY ITEM-->
+<tr class="topic">
+  <td class="main" valign="top" colspan="2">
+    <table>
+      <tr class="topicHeader">
+        <td class="topicImageColumn">
+
+        </td>
+        <td class="topicLineColumn">
+          <a name="Topic9"></a>
+          <span class=outlineNumberFirst></span><span class=topicLineFirst>Modelo Conceptual CLD</span>
+          <span class="topicIcons">
+
+          </span>
+        </td>
+      </tr>
+    </table>
+
+<!--START PAGE BOX PARTIAL MAP-->
+<div class="partialMapArea">
+  <table id="partialMapTable">
+    <tr>
+      <td>
+        <div class="SubTopicItems">
+<!--START PAGE BOX PARTIAL MAP SUB TOPIC-->
+<div class="subtopicitem">
+    <img src="Res/images/arrow.gif" alt=""> 
+    <a href="LinkedDocuments/CLD%20metodo.ppt">CLD metodo.ppt</a> 
+</div>
+<!--END PAGE BOX PARTIAL MAP SUB TOPIC-->
+
+        </div>
+      </td>
+   
+      <td>
+        <div class="partialMap">
+          <img src="" 
+           usemap="#"
+           alt="">
+        </div>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<!--END PAGE BOX PARTIAL MAP-->
+
+     <div class="topicTextNotes"><div align="left"><span style=" font-size:12pt">Los m&#233;todos
+del pensamiento sist&#233;mico nos proveen de herramientas para
+entender las dificultades de situaciones complejas. Los
+m&#233;todos han sido empleados por m&#225;s de treinta a&#241;os,
+y actualmente est&#225;n bien desarrollados. Sin embargo estos
+m&#233;todos requieren que realicemos un cambio en la forma en que
+pensamos. En particular requieren de que nos movamos desde una
+visi&#243;n donde los eventos y sus causas (usualmente se asumen
+que son otro evento) se dan de forma aislada, para comenzar a mirar
+al predio rural como un</span> <span style=
+" font-size:12pt"><b><i>sistema</i></b></span><span style=
+" font-size:12pt">&#160;compuesto por partes que interact&#250;an
+entre s&#237;.</span></div>
+<div align="left">&#160;</div>
+<div align="left"><img src="NotesImages/Topic9NotesImage4.gif"
+align="bottom" width="614" height="411" border="0" alt=
+"graphic" /></div>
+<div align="left">&#160;</div>
+<div align="left"><span style=" font-size:12pt">Figura Nro.1 En
+busca de lograr el mayor impacto (duradero).</span></div>
+<div align="left"><span style=" font-size:12pt">Utilizamos el
+termino sistema en relaci&#243;n a un grupo de items
+interdependientes que forman un patr&#243;n unificado. Ya que
+nuestro inter&#233;s es en predios rurales nos concentraremos en
+sistemas con base en los recursos naturales, donde los productores
+buscan realizar una producci&#243;n que les permita realizarse
+humana y economicamente, y a trav&#233;s de producir bienes
+comerciables, adem&#225;s de mantener o mejorar los servicios
+ambientales asociados, utilizando una determinada tecnolog&#237;a y
+en un contexto socio-econ&#243;mico determinado. Casi todo lo
+relacionado a la producci&#243;n rural en estos t&#233;rminos puede
+decirse que est&#225; asociado a una parte de uno o m&#225;s
+sistemas.</span></div>
+<div align="left"><span style=" font-size:12pt">Como se hizo
+menci&#243;n, cuando enfrentamos un problema, tendemos a asumir que
+alguna causa externa produjo el evento. Desde la mirada de
+sistemas, se toma un punto de vista alternativo, que podr&#237;amos
+decir en que la estructura interna del sistema es usualmente
+m&#225;s importante que los eventos externos que generaron el
+problema. Por ejemplo luego de un evento de precipitaci&#243;n se
+observa que por lo arroyos fluyen gran cantidad de sedimentos en
+suspensi&#243;n y asociamos esto al evento extraordinario de
+lluvia, sin embargo la baja cobertura vegetal de los campos
+asociada a la p&#233;rdida de bosque por cortas no reguladas o al
+intenso pastoreo, que a su vez produce por pisoteo un deterioro del
+suelo en m&#225;rgenes de arroyo ser&#237;a la causa determinante
+de la carga de sedimentos.</span></div>
+<div align="left"><span style=" font-size:12pt">Esto se ilustra en
+la figura nro 1, a menudo se trata de explicar los resultados, a
+trav&#233;s de mostrar como un grupo de eventos es causa de otros,
+o como un grupo de eventos forma parte de un patr&#243;n de
+comportamiento. La dificultad con esta forma de pensar llamada
+"eventos causa eventos" es que lleva a formas no muy efectivas para
+alterar los resultados indeseables.</span></div>
+<div align="left">&#160;</div>
+<div align="left"><span style=" font-size:12pt">Como comenzar a
+trazar un modelo conceptual o CLD (Causal Loop Diagram, diagrama de
+causas anidadas o circulares)</span></div>
+<div align="left"><span style=" font-size:12pt">Para empezar a
+considerar la estructura del sistema, primero se generaliza a
+partir de los eventos espec&#237;ficos asociados con el problema
+considerando los patrones de comportamiento que caracterizan la
+situaci&#243;n. Usualmente requiere que se investigue como una o
+m&#225;s variables de inter&#233;s cambia en el tiempo (Como
+aumenta los sedimentos en los cursos de agua, como var&#237;a la
+cobertura del bosque o la productividad de los pastizales, o que
+sucede con la regeneraci&#243;n, o que pasa con los ingresos del
+productor, o como disminuye la biodiversidad). Esto es cu&#225;les
+son los patrones de comportamiento que est&#225;s variables
+muestran en el tiempo.</span></div>
+<div align="left"><span style=" font-size:12pt">Para entender la
+estructura del sistema que produce un determinado comportamiento,
+utilizaremos un tipo de notaci&#243;n gr&#225;fica para
+representarla. En el diagrama se plasman con frases descriptivas
+cu&#225;les son los elementos que componen el sistema, donde las
+flechas representan la influencia de causas entre los elementos. En
+los extremos de las flechas se adjunta un signo que puede ser
+positivo (+) o negativo (-).</span></div>
+<div align="left"><span style=" font-size:12pt">Una flecha causal
+de un elemento A hacia un elemento B, es positivo (+) denota que un
+incremento de la variable A produce un efecto similar sobre la
+variable B, de la misma forma un descenso en los valores de la
+variable A da lugar a la disminuci&#243;n de la variable B, por
+ejemplo</span></div>
+<div align="left">&#160;</div>
+<div align="left"><span style=
+" font-size:12pt">&#160;</span><img src=
+"NotesImages/Topic9NotesImage5.gif" align="bottom" width="666"
+height="444" border="0" alt="graphic" /></div>
+<div align="left"><span style=" font-size:12pt">Para completar la
+presentaci&#243;n de la terminolog&#237;a utilizada para describir
+la estructura del sistema es necesario mencionar que estas son
+relaciones lineales de causa y efecto en cadena, las cu&#225;les no
+cierran o influyen sobre si mismas, y por ello se las denomina de
+bucle abierto. Un an&#225;lisis de causas y efectos que no tiene en
+cuenta los bucles de retroalimentaci&#243;n se denominan
+pensamiento de bucle abierto, y este t&#233;rmino que usualmente se
+lo utiliza con una connotaci&#243;n peyorativa, indica que el
+pensamiento no est&#225; considerando el rango completo de impactos
+de una acci&#243;n propuesta.</span></div>
+<div align="left"><span style=" font-size:12pt">El bucle o
+retroalimentaci&#243;n hace referencia a que una causa tiene efecto
+sobre si misma a trav&#233;s de influir otras variables y
+viceversa. Por ejemplo en el caso de la relaci&#243;n A-&gt; B
+(Vientres -&gt; Pariciones) el aumento de las pariciones trae
+aparejado un incremento de los vientres, que a su vez traera
+aparajedo mayores pariciones, de esta forma se genera un bucle que
+se refuerza a si mismo, tanto positiva como negativamente. Por otro
+lado en el caso de la relaci&#243;n causal C-&gt;D (carga
+ganadera-&gt;forraje disponible), tambi&#233;n se puede observar un
+bucle o retroalimentaci&#243;n pero este ser&#225; de otra
+naturaleza al mencionado anteriormente, ya que el incremento de la
+carga ganadera producir&#225; una disminuci&#243;n de la cantidad
+de forraje, y un incremento del forraje puede permitir elevar la
+carga ganadera, es decir que el tipo de causa en un sentido es de
+signo contrario al del sentido inverso, est&#225; da lugar a un
+bucle que se balancea.</span></div>
+<div align="left"><img src="NotesImages/Topic9NotesImage6.gif"
+align="bottom" width="694" height="327" border="0" alt=
+"graphic" /></div>
+<div align="left"><img src="NotesImages/Topic9NotesImage7.gif"
+align="bottom" width="325" height="254" border="0" alt=
+"graphic" /></div>
+<div align="left">&#160;</div>
+<div align="left">&#160;Experiencia de implementaci&#243;n de
+manejo animal en un establecimiento productivo del productor
+Gonzalo S&#225;nchez Ea. Chali Aike.</div>
+<div align="left">&#160;&#160;<img src=
+"NotesImages/Topic9NotesImage9.jpg" align="bottom" width="672"
+height="720" border="0" alt="graphic" /></div>
+<div align="left">&#160;</div>
+<div align="left">&#160;</div>
+<div align="left"><span style=
+" font-size:12pt">REFERENCIAS</span></div>
+<div align="left"><span style=" font-size:12pt">Para una
+introducci&#243;n did&#225;ctica a los sistemas y los CLD puede
+leer:</span></div>
+<div align="left"><span style=" font-size:12pt">53</span></div>
+<div align="left"><a href=
+"LinkedDocuments/introCLD.pdf"><span style=
+" font-size:12pt">Introduction to causal loop
+diagrams</span></a><span style=" font-size:12pt">:</span></div>
+<div align="left"><span style=" font-size:12pt"><i>Haraldsson H.V.
+2000.</i></span></div>
+<div align="left">&#160;</div>
+<div align="left"><span style=" font-size:12pt">97</span></div>
+<div align="left"><a href="LinkedDocuments/ch-1.pdf"><span style=
+" font-size:12pt">System Behavior and Causal loop diagrams, Chapter
+1.</span></a></div>
+<div align="left"><span style=" font-size:12pt"><i>Kinkwood C.,
+Arizona State University</i></span><span style=
+" font-size:12pt">,</span></div>
+<div align="left">&#160;</div>
+<div align="left"><span style=" font-size:12pt">Una ventaja del
+enfoque de los sistemas es que ciertos comportamientos pueden
+generalizarse y por ello asimilarse a distintos casos, en el
+siguiente enlace pueden estudiarse algunos de los casos m&#225;s
+relevantes:</span></div>
+<div align="left"><span style=" font-size:12pt">139</span></div>
+<div align="left"><a href=
+"LinkedDocuments/Braun%20-%202002%20-%20The%20System%20Archetypes.pdf">
+<span style=" font-size:12pt">The system
+Archetypes</span></a><span style=" font-size:12pt">.</span></div>
+<div align="left"><span style=" font-size:12pt"><i>Braun
+W.</i></span><span style=" font-size:12pt">,<br />
+Rockefeller College of Public Affairs and Policy. University of
+Albany.</span></div>
+<div align="left"><span style=" font-size:12pt">&#160;</span></div></div>
+
+
+
+
+
+
+  </td>
+  <td class="right" valign="top">
+<!--right body column empty-->
+  </td>
+</tr>
+<!--END PAGE BODY ITEM-->
+<!--BEGIN PAGE BODY ITEM-->
+<tr class="topic">
+  <td class="main" valign="top" colspan="2">
+    <table>
+      <tr class="topicHeader">
+        <td class="topicImageColumn">
+
+        </td>
+        <td class="topicLineColumn">
+          <a name="Topic23"></a>
+          <span class=outlineNumber></span><span class=topicLine>CLD metodo.ppt</span>
+          <span class="topicIcons">
+
+          </span>
+        </td>
+      </tr>
+    </table>
+
+
+     <div class="topicTextNotes"></div>
+
+
+
+
+
+<!--START RELATED-->
+<div class="relatedSection">
+<!--START ONE RELATED SECIONT -->
+<div class="oneRelatedSection">
+  <div class="relatedSectionHeader">Ver temas y documentos relacionados:</div>
+  <div class="relatedSectionBody">
+      <!--BEGIN SNIPPET ITEM HYPERLINK  (Page_Box_CalloutNotes_Item)-->
+<div class="relatedItem">
+   <span class="relatedItemBullet">
+      <img src="Res/images/arrow.gif" alt="">
+   </span>
+   <a class="topicHyperlink"
+      href="LinkedDocuments/CLD%20metodo.ppt"
+      target="">CLD metodo.ppt</a>
+   <a href="LinkedDocuments/CLD%20metodo.ppt"
+      target="">
+   	<img class="topicHyperlinkIcon" width="16" height="16"
+             src="MapMarkers/Page10hyperlinkIcon123.gif" alt=""></a>
+</div>
+<!--END SNIPPET BODY ITEM HYPERLINK-->
+
+  </div>
+</div>
+<!--END ONE RELATED SECIONT-->
+
+
+</div>
+<!--END RELATED-->
+
+  </td>
+  <td class="right" valign="top">
+<!--right body column empty-->
+  </td>
+</tr>
+<!--END PAGE BODY ITEM-->
+
+
+<!-- BEGIN TOP BUTTON -->
+<tr class="topic">
+  <td class="main" valign="top" colspan="2">
+    <div class="body">
+      <div class="topCommand">
+        <span class="commands">
+	  <span class="command">
+            <img src="Res/images/top_button.gif" alt=""> 
+	      <a href="javascript:scroll(0,0)">
+	         <span class="label">Arriba</span>
+              </a>
+ 	</span>
+       </span>
+      </div>
+    </div>
+  </td>
+  <td class="right" valign="top">
+<!--right body column empty-->
+  </td>
+</tr>
+<!-- END TOP BUTTON -->
+
+</table>
+
+<!-- BEGIN SIDE NAVIGATION WRAPPER-->
+    </td>
+  </tr>
+</table> 
+<!-- END SIDE NAVIGATION WRAPPER-->
+
+<!-- END PAGE BODY-->
+
+<!---BEGIN FOOTER-->
+<table id="pageFooter">
+   <tr>
+      <!-- reserved for image <td class="left" rowspan="2"></td>-->
+      <td class="center" rowspan="2">
+         <div class="footerText">Sistemas de Producción de Rumiantes Menores</div>
+      </td>
+      <td class="right">
+         <div class="hyperlink">
+            <span>   
+               <a href="" target="_blank">Docentes: Sebastián Villagra, Esteban Jockers, Federico Letourneau, Sofía Hara</a>
+            </span>
+         </div>
+      </td>
+   </tr>
+   <tr>
+      <td class="right">
+         <div class="lastUpdated">
+            <span>Last updated:</span>
+            <span>11/07/2024</span>
+         </div>
+      </td>
+   </tr>
+   <tr>
+     <td></td>
+   </tr>
+</table>
+<!---END FOOTER-->
+
+
+</body>
+</html>
+
