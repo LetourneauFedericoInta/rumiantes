@@ -1,0 +1,533 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+	"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <title>PROBLEMAS SENCILLOS VS COMPLEJOS</title>
+   <script language="JavaScript" type="text/JavaScript" src="Res/code/shared.js"></script>
+   <script language="JavaScript" type="text/JavaScript" src="Res/code/boxController.js"></script>
+   <script language="JavaScript" type="text/JavaScript" src="Res/code/boxSettings.js"></script>
+   <link href="Res/styles/shared.css" rel="stylesheet" type="text/css">
+   <link href="Res/styles/StaticOutline.css" rel="stylesheet" type="text/css">
+</head>
+<body id="page" onload="init()">
+<!-- BEGIN PAGE HEADER -->
+<table id="pageHeader">
+   <tr>
+      <td class="left" rowspan="3">
+         <a class="noHover" href="index.html" target="_parent">
+         <img src="Res/images/logo.gif" alt=""></a> 
+      </td>
+      <td class="right">
+<!-- BEGIN TOOLS UTILITIES--> 
+<div class="utilities">
+  <span class="command">
+    <a href="index.html" target="_parent">
+      <span class="label">Inicio</span>
+    </a>
+  </span>
+<span class="utilities_toc">
+|
+  <span class="command">
+    <a href="contents.htm" target="_parent">
+      <span class="label">Contenido</span>
+    </a>
+  </span>
+</span>
+
+
+</div>
+<!-- END TOOLS UTILITIES--> 
+
+      </td>
+   </tr>
+   <tr>
+      <td class="right">
+        <div class="mapName">Introducción a Sistemas y Simulación de sus Dinámicas.</div>
+      </td>
+   </tr>
+   <tr>
+      <td class="right">
+        <div class="contactInformation">Sistemas de Producción de Rumiantes Menores. Docentes: Sebastián Villagra, Esteban Jockers, Federico Letourneau, Sofía Hara, Maestría en Producción de Rumiantes Menores. INTA EEA Bariloche - Univ. Nac. del Comahue Fac. Cs Agrarias - Univ. Nac de Rosario Fac. Cs. Agrarias&nbsp;&nbsp;<a href="mailto:"></a></div>
+      </td>
+   </tr>
+</table>
+<!-- END PAGE HEADER -->
+
+<!-- BEGIN PAGE BODY-->
+
+<!-- BEGIN SIDE NAVIGATION WRAPPER-->
+<table>
+  <tr>
+    <td class="outlineColumn">
+    <!-- Ensure minimum width of outline-->
+    <img class="emptyImage" src="Res/images/empty.gif" 
+        width="190" height="1" alt=""><br>									
+<!-- STATIC OUTLINE - START -->
+  <div class="staticOutline">
+  <div class="hometopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="index.html">&nbsp;Inicio&nbsp;</a></span>
+  </div>
+  <div class="maintopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page2.html">&nbsp;1. CRONOGRAMA DE CLASES&nbsp;</a></span>
+  </div>
+  <div class="maintopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page3.html">&nbsp;2. CONCEPTOS SOBRE SISTEMAS&nbsp;</a></span>
+  </div>
+  <div class="maintopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page4.html">&nbsp;3. LOS LÍMITES DEL SISTEMA&nbsp;</a></span>
+  </div>
+  <div class="maintopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page5.html">&nbsp;4. EL PENSAMIENTO EN SISTEMAS&nbsp;</a></span>
+  </div>
+  <div class="maintopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="select"><a href="Page6.html">&nbsp;5. PROBLEMAS SENCILLOS VS COMPLEJOS&nbsp;</a></span>
+  </div>
+  <div class="maintopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page7.html">&nbsp;6. UN EJEMPLO&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="LinkedDocuments/modeloPehuen.pdf">&nbsp;Diagramas del modelo&nbsp;</a></span>
+  </div>
+  <div class="maintopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page9.html">&nbsp;7. EL MÉTODO&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="LinkedDocuments/CLD%20metodo.ppt">&nbsp;CLD metodo.ppt&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page11.html">&nbsp;Modelo Conceptual CLD&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page12.html">&nbsp;Modelo Computacional&nbsp;</a></span>
+  </div>
+  <div class="maintopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page13.html">&nbsp;8. INSIGHT MAKER&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page14.html">&nbsp;Estructura del rebaño&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page15.html">&nbsp;Manejo Reproductivo&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page16.html">&nbsp;Aguadas&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page17.html">&nbsp;Forraje&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page18.html">&nbsp;Loops&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page19.html">&nbsp;Pastoreo ABM&nbsp;</a></span>
+  </div>
+  <div class="maintopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page20.html">&nbsp;9. EL MACROSCOPIO&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="LinkedDocuments/The-Macroscope.pdf">&nbsp;TEXTO COMPLETO&nbsp;</a></span>
+  </div>
+  <div class="maintopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page22.html">&nbsp;10. REFERENCIAS&nbsp;</a></span>
+  </div>
+  <div class="maintopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page23.html">&nbsp;11. DEFINICIONES&nbsp;</a></span>
+  </div>
+  <div class="maintopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page24.html">&nbsp;12. TAREAS&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page25.html">&nbsp;3 Sept virtual&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page26.html">&nbsp;12 Sept presencial&nbsp;</a></span>
+  </div>
+  <div class="maintopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page27.html">&nbsp;13. TÉRMINOS DE LA EVALUACIÓN&nbsp;</a></span>
+  </div>
+
+  </div>
+<!-- STATIC OUTLINE - END -->
+
+    </td>
+    <td class="bodyColumn">
+<!-- END SIDE NAVIGATION WRAPPER-->
+
+<table id="pageBody">
+ <col class="main">
+ <col class="right">
+
+
+<!--BEGIN PAGE BODY ITEM-->
+<tr class="topic">
+  <td class="main" valign="top" colspan="2">
+    <table>
+      <tr class="topicHeader">
+        <td class="topicImageColumn">
+
+        </td>
+        <td class="topicLineColumn">
+          <a name="Topic6"></a>
+          <span class=outlineNumberFirst>5. </span><span class=topicLineFirst>PROBLEMAS SENCILLOS VS COMPLEJOS</span>
+          <span class="topicIcons">
+
+          </span>
+        </td>
+      </tr>
+    </table>
+
+
+     <div class="topicTextNotes"><div align="left"><span style=" font-size:12pt">La forma de pensar
+influye en c&#243;mo resolvemos los problemas. Aqu&#237; se propone
+una forma particular de buscar respuestas a cuestiones relacionados
+a predios rurales.</span></div>
+<div align="left"><span style=" font-size:12pt">Las actividades
+productivas en predios rurales pueden impactar en el mediano a
+largo plazo por la acumulaci&#243;n de efectos negativos sobre la
+vegetaci&#243;n, el suelo o el agua. Por ejemplo, el incremento de
+la carga animal generan el consumo de la vegetaci&#243;n, lo que
+afecta el crecimiento, forma y/o distribuci&#243;n de las especies
+vegetales presentes. Las consecuencias de estos impactos se
+observan con el transcurso del tiempo, y a veces amplificados
+m&#225;s all&#225; de lo previsible.</span></div>
+<div align="left"><span style=" font-size:12pt">A menudo, las
+iniciativas para mejorar la econom&#237;a y la producci&#243;n
+predial no alcanzan los objetivos deseados, o su abordaje es muy
+complejo. A veces los buenos resultados duran poco. &#191;Por
+qu&#233; sucede esto?</span></div>
+<br />
+&#160;
+<table width="672" cellpadding="6" style=
+"table-layout: fixed; border-collapse: collapse; border-color: #ffffff;">
+<colgroup>
+<col width="322" />
+<col width="350" /></colgroup>
+<tr>
+<td align="left" valign="top" width="48%" style=
+"border: solid #ffffff 0.50pt;">
+<div align="left"><span style=" font-size:12pt">Cuando los
+problemas son sencillos como en el caso de la Figura 1A, donde A y
+B son la causa de C, y D de la consecuencia de C, la decisi&#243;n
+es simple y su resultado previsible. Un tipo de razonamiento como
+el del esquema 1A se conoce como pensamiento lineal.</span></div>
+</td>
+<td align="left" valign="top" width="52%" style=
+"border: solid #ffffff 0.50pt;"><img src=
+"NotesImages/Topic6NotesImage3.jpg" align="bottom" width="205"
+height="119" border="0" alt="graphic" />
+<div align="left" class="lastTableNotesDiv"><span style=
+" font-size:12pt">Figura 1A Causalidad lineal.</span></div>
+</td>
+</tr>
+</table>
+<br />
+&#160;
+<table width="672" cellpadding="6" style=
+"table-layout: fixed; border-collapse: collapse; border-color: #000000;">
+<colgroup>
+<col width="406" />
+<col width="266" /></colgroup>
+<tr>
+<td align="center" valign="top" width="60%" style=
+"border: solid #000000 0.50pt;">&#160;<img src=
+"NotesImages/Topic6NotesImage4.jpg" align="bottom" width="204"
+height="157" border="0" alt="graphic" />
+<div align="center" class="lastTableNotesDiv"><span style=
+" font-size:12pt">Figura 1 B Causalidad
+sist&#233;mica.</span></div>
+</td>
+<td align="left" valign="top" width="40%" style=
+"border: solid #000000 0.50pt;">
+<div align="left"><span style=" font-size:12pt">Sin embargo, los
+problemas de manejo sustentable suelen ser mucho m&#225;s
+complejos, y se asemejan a la Figura 1B, donde causas y
+consecuencias se confunden: la causa A produce B y B genera C pero
+tambi&#233;n afecta D, que impacta en E, y &#233;sta en C, que a
+trav&#233;s de D vuelve a influir en A. Entonces, en el diagrama 1B
+entran en juego muchas causas que se influyen mutuamente por
+m&#225;s de un camino, retroaliment&#225;ndose, es decir,
+influyendo entre s&#237; directa o indirectamente. El razonamiento
+de la Figura 1B se conoce como pensamiento sist&#233;mico.
+Aqu&#237; en contraposici&#243;n le llamaremos causalidad
+sist&#233;mica.</span></div>
+</td>
+</tr>
+</table>
+<div align="left">&#160;</div>
+<table width="672" cellpadding="6" style=
+"table-layout: fixed; border-collapse: collapse; border-color: #000000;">
+<colgroup>
+<col width="316" />
+<col width="356" /></colgroup>
+<tr>
+<td align="left" valign="top" width="47%" style=
+"border: solid #000000 0.50pt;">
+<div align="left"><span style=" font-size:12pt">En ambos casos es
+importante hacer expl&#237;citos estos an&#225;lisis causales, de
+manera de poder transmitirlos, ponerlos a prueba y discutirlos, que
+es el primer paso a seguir a la hora de resolver problemas. Para
+ejemplificar podemos citar el viejo dilema de la gallina y el
+huevo, cu&#225;l fue primero. Desde el punto de vista de la
+causalidad lineal el diagrama conceptual nos remite a Figura 2A o a
+su inverso:</span></div>
+</td>
+<td align="center" valign="top" width="53%" style=
+"border: solid #000000 0.50pt;"><img src=
+"NotesImages/Topic6NotesImage5.jpg" align="bottom" width="349"
+height="102" border="0" alt="graphic" />
+<div align="center" class="lastTableNotesDiv"><span style=
+" font-size:12pt">Figura 2A Causalidad lineal.</span></div>
+</td>
+</tr>
+</table>
+<br />
+&#160;
+<table width="672" cellpadding="6" style=
+"table-layout: fixed; border-collapse: collapse; border-color: #000000;">
+<colgroup>
+<col width="410" />
+<col width="262" /></colgroup>
+<tr>
+<td align="center" valign="top" width="61%" style=
+"border: solid #000000 0.50pt;"><img src=
+"NotesImages/Topic6NotesImage6.jpg" align="bottom" width="218"
+height="154" border="0" alt="graphic" />
+<div align="center" class="lastTableNotesDiv"><span style=
+" font-size:12pt">Figura 2B Causalidad sist&#233;mica.</span></div>
+</td>
+<td align="left" valign="top" width="39%" style=
+"border: solid #000000 0.50pt;">
+<div align="left"><span style=" font-size:12pt">Mientras que desde
+la causalidad sist&#233;mica existe una retroalimentaci&#243;n
+entre los factores involucrados (Figura 2B), esta forma de plantear
+relaciones causales de manera circular, donde los resultados de
+nuestras acciones se entrelazan a medida que transcurre el tiempo
+con un retardo o delay entre causas y consecuencias, es la base del
+comportamiento din&#225;mico, en contraposici&#243;n con el
+pensamiento lineal est&#225;tico.</span></div>
+</td>
+</tr>
+</table>
+<div align="left">&#160;</div>
+<table width="672" cellpadding="6" style=
+"table-layout: fixed; border-collapse: collapse; border-color: #000000;">
+<colgroup>
+<col width="345" />
+<col width="327" /></colgroup>
+<tr>
+<td align="left" valign="top" width="51%" style=
+"border: solid #000000 0.50pt;">
+<div align="left"><span style=" font-size:12pt">Algunos ejemplos
+permiten mostrar esta idea. En la Figura 2C m&#225;s vientres
+producen m&#225;s pariciones, y con m&#225;s parici&#243;n, en el
+futuro habr&#225; m&#225;s vientres.</span></div>
+</td>
+<td align="center" valign="top" width="49%" style=
+"border: solid #000000 0.50pt;">&#160;&#160;&#160;<img src=
+"NotesImages/Topic6NotesImage7.jpg" align="bottom" width="265"
+height="161" border="0" alt="graphic" />
+<div align="left"><span style=" font-size:12pt">Figura 2C: M&#225;s
+vacas producen m&#225;s terneros (++) y m&#225;s terneros permiten
+obtener m&#225;s vacas.</span></div>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top" width="51%" style=
+"border: solid #000000 0.50pt;">
+<div align="left"><span style=" font-size:12pt">En la Figura 2D se
+muestra que una mayor cantidad de &#225;rboles que producen
+semillas promover&#225;n la regeneraci&#243;n, que con el tiempo
+aumentar&#225;n la poblaci&#243;n de &#225;rboles. En ambos casos
+la interacci&#243;n refuerza a los componentes de cada
+sistema.</span></div>
+</td>
+<td align="center" valign="top" width="49%" style=
+"border: solid #000000 0.50pt;"><img src=
+"NotesImages/Topic6NotesImage8.jpg" align="bottom" width="247"
+height="242" border="0" alt=
+"graphic" />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+<div align="left"><span style=" font-size:12pt">Figura 2D: M&#225;s
+&#225;rboles producen m&#225;s reto&#241;os y &#233;stos, con el
+tiempo, se convertir&#225;n en m&#225;s &#225;rboles que semillen
+(++).</span></div>
+</td>
+</tr>
+<tr>
+<td align="left" valign="top" width="51%" style=
+"border: solid #000000 0.50pt;">
+<div align="left"><span style=" font-size:12pt">Pero tambi&#233;n
+ocurren situaciones donde la interacci&#243;n balancea (equilibra)
+el resultado, como es el caso de la Figura 2E. El aumento de la
+disponibilidad forrajera permite al tiempo un incremento de la
+carga, cuyo efecto mediato es la disminuci&#243;n del forraje,
+limitando la carga. Esta causalidad circular es una
+caracter&#237;stica importante del pensamiento
+sist&#233;mico.</span></div>
+</td>
+<td align="left" valign="top" width="49%" style=
+"border: solid #000000 0.50pt;"><img src=
+"NotesImages/Topic6NotesImage9.jpg" align="bottom" width="271"
+height="172" border="0" alt="graphic" /><br />
+<span style=" font-size:12pt">Figura 2E: Mayor cantidad de vacas
+reduce la disponibilidad de forraje, pero m&#225;s forraje permite
+m&#225;s carga de ganado (+-) Se balancea</span>
+<div align="left" class="lastTableNotesDiv">&#160;</div>
+</td>
+</tr>
+</table>
+<div align="left">&#160;</div>
+<div align="left"><span style=" font-size:12pt">Figura 2E: Mayor
+cantidad de vacas reduce la disponibilidad de forraje, pero
+m&#225;s forraje permite m&#225;s carga de ganado (+-) Se
+balancea.</span></div>
+<div align="left">&#160;</div>
+<div align="left"><span style=" font-size:12pt">&#191;Pero que es
+un sistema?</span></div>
+<div align="left"><span style=" font-size:12pt">Un sistema es un
+conjunto de elementos interconectados y organizados para alcanzar
+un objetivo. Es m&#225;s que la suma de sus partes, ya que puede
+adaptarse, preservarse, evolucionar, responder a eventos, perseguir
+un objetivo y repararse para asegurar su supervivencia. La
+integridad del sistema se manifiesta en la relaci&#243;n coherente
+de sus partes.</span></div>
+<div align="left"><span style=" font-size:12pt">Por ejemplo, una
+bicicleta, compuesta por el pi&#241;&#243;n, la corona, la cadena,
+las ruedas, el volante y el asiento, es m&#225;s que la suma de
+estas piezas. Juntas, permiten la movilidad mediante el pedaleo,
+algo que las partes por s&#237; solas no pueden
+lograr.</span></div>
+<div align="left">&#160;</div>
+<div align="left">&#160;</div>
+<div align="center"><img src="NotesImages/Topic6NotesImage10.jpg"
+align="bottom" width="393" height="157" border="0" alt=
+"graphic" /></div>
+<div align="left">&#160;</div>
+<div align="left"><span style=" font-size:12pt">Figura 3:
+Componentes desvinculados (izquierda) y bicicleta con sus elementos
+organizados (derecha).</span></div>
+<div align="left">&#160;</div>
+<div align="left">&#160;</div>
+<div align="left"><span style=" font-size:12pt">En el diagrama de
+la figura 4, el rodeo, representado por los vientres aprovecha
+forraje del pastizal y del bosque (representado por las
+pl&#225;ntulas de regeneraci&#243;n y los &#225;rboles). Si el
+forraje es abundante se incrementar&#225;n las pariciones, y con
+ello la&#160; cantidad de vientres y otros animales del rodeo,
+aumentando la carga ganadera. Por otra parte, la cosecha de
+&#225;rboles y la venta de animales aumentan los ingresos
+econ&#243;micos. Adem&#225;s, la corta de &#225;rboles
+incrementar&#225; la intensidad de luz que llega al suelo,
+mejorando la oferta forrajera predial.</span></div>
+<div align="left">&#160;</div>
+<div align="left">&#160;</div>
+<div align="center"><img src="NotesImages/Topic6NotesImage11.jpg"
+align="bottom" width="606" height="499" border="0" alt=
+"graphic" /></div>
+<div align="left"><span style=" font-size:12pt">Sin embargo, el
+pastoreo tambi&#233;n afecta la capacidad de regeneraci&#243;n del
+bosque, por ramoneo de frutos de los &#225;rboles, o por el consumo
+o pisoteo de las pl&#225;ntulas establecidas. Estos efectos pueden
+no ser evidentes en el corto plazo, y en la medida que no se
+destinen ingresos econ&#243;micos a proteger las pl&#225;ntulas o a
+reforestar, cabe esperar una futura disminuci&#243;n de la
+cobertura boscosa. Esta disminuci&#243;n, que previamente
+percibimos como positiva para el recurso forrajero, si es muy
+intensa podr&#237;a contribuir a secar el suelo, perder calidad y
+cantidad de cobertura vegetal, disminuir el porcentaje de
+se&#241;alada y habilitar procesos de erosi&#243;n, impidiendo la
+restauraci&#243;n del bosque.</span></div>
+<div align="left"><span style=" font-size:12pt">&#160;</span></div>
+<div align="left"><span style=" font-size:12pt">Un predio es un
+sistema complejo con relaciones rec&#237;procas entre sus
+componentes y procesos de cambio en distintos plazos. Su manejo
+sustentable requiere un an&#225;lisis integrado y la
+identificaci&#243;n de relaciones multicausales y circulares.
+Analizar un sistema complejo a trav&#233;s de sus componentes e
+interacciones es &#250;til porque permite establecer premisas,
+definir componentes y procesos, y usarlos para transmitir, discutir
+y probar la complejidad del sistema. El pensamiento sist&#233;mico
+es una herramienta poderosa que se puede usar con nuestros
+conocimientos y percepciones, y es ideal para el an&#225;lisis
+grupal. Las decisiones de manejo basadas en este enfoque son
+m&#225;s efectivas y duraderas que las soluciones simples o
+lineales.</span></div></div>
+
+
+
+
+
+
+  </td>
+  <td class="right" valign="top">
+<!--right body column empty-->
+  </td>
+</tr>
+<!--END PAGE BODY ITEM-->
+
+
+<!-- BEGIN TOP BUTTON -->
+<tr class="topic">
+  <td class="main" valign="top" colspan="2">
+    <div class="body">
+      <div class="topCommand">
+        <span class="commands">
+	  <span class="command">
+            <img src="Res/images/top_button.gif" alt=""> 
+	      <a href="javascript:scroll(0,0)">
+	         <span class="label">Arriba</span>
+              </a>
+ 	</span>
+       </span>
+      </div>
+    </div>
+  </td>
+  <td class="right" valign="top">
+<!--right body column empty-->
+  </td>
+</tr>
+<!-- END TOP BUTTON -->
+
+</table>
+
+<!-- BEGIN SIDE NAVIGATION WRAPPER-->
+    </td>
+  </tr>
+</table> 
+<!-- END SIDE NAVIGATION WRAPPER-->
+
+<!-- END PAGE BODY-->
+
+<!---BEGIN FOOTER-->
+<table id="pageFooter">
+   <tr>
+      <!-- reserved for image <td class="left" rowspan="2"></td>-->
+      <td class="center" rowspan="2">
+         <div class="footerText"></div>
+      </td>
+      <td class="right">
+         <div class="hyperlink">
+            <span>   
+               <a href="" target="_blank">letourneau.federico@inta.gob.ar</a>
+            </span>
+         </div>
+      </td>
+   </tr>
+   <tr>
+      <td class="right">
+         <div class="lastUpdated">
+            <span>Last updated:</span>
+            <span>02/09/2024</span>
+         </div>
+      </td>
+   </tr>
+   <tr>
+     <td></td>
+   </tr>
+</table>
+<!---END FOOTER-->
+
+
+</body>
+</html>
+

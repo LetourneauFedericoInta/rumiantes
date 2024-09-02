@@ -1,0 +1,416 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+	"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <title>Modelo Computacional</title>
+   <script language="JavaScript" type="text/JavaScript" src="Res/code/shared.js"></script>
+   <script language="JavaScript" type="text/JavaScript" src="Res/code/boxController.js"></script>
+   <script language="JavaScript" type="text/JavaScript" src="Res/code/boxSettings.js"></script>
+   <link href="Res/styles/shared.css" rel="stylesheet" type="text/css">
+   <link href="Res/styles/StaticOutline.css" rel="stylesheet" type="text/css">
+</head>
+<body id="page" onload="init()">
+<!-- BEGIN PAGE HEADER -->
+<table id="pageHeader">
+   <tr>
+      <td class="left" rowspan="3">
+         <a class="noHover" href="index.html" target="_parent">
+         <img src="Res/images/logo.gif" alt=""></a> 
+      </td>
+      <td class="right">
+<!-- BEGIN TOOLS UTILITIES--> 
+<div class="utilities">
+  <span class="command">
+    <a href="index.html" target="_parent">
+      <span class="label">Inicio</span>
+    </a>
+  </span>
+<span class="utilities_toc">
+|
+  <span class="command">
+    <a href="contents.htm" target="_parent">
+      <span class="label">Contenido</span>
+    </a>
+  </span>
+</span>
+
+
+</div>
+<!-- END TOOLS UTILITIES--> 
+
+      </td>
+   </tr>
+   <tr>
+      <td class="right">
+        <div class="mapName">Introducción a Sistemas y Simulación de sus Dinámicas.</div>
+      </td>
+   </tr>
+   <tr>
+      <td class="right">
+        <div class="contactInformation">Sistemas de Producción de Rumiantes Menores. Docentes: Sebastián Villagra, Esteban Jockers, Federico Letourneau, Sofía Hara, Maestría en Producción de Rumiantes Menores. INTA EEA Bariloche - Univ. Nac. del Comahue Fac. Cs Agrarias - Univ. Nac de Rosario Fac. Cs. Agrarias&nbsp;&nbsp;<a href="mailto:"></a></div>
+      </td>
+   </tr>
+</table>
+<!-- END PAGE HEADER -->
+
+<!-- BEGIN PAGE BODY-->
+
+<!-- BEGIN SIDE NAVIGATION WRAPPER-->
+<table>
+  <tr>
+    <td class="outlineColumn">
+    <!-- Ensure minimum width of outline-->
+    <img class="emptyImage" src="Res/images/empty.gif" 
+        width="190" height="1" alt=""><br>									
+<!-- STATIC OUTLINE - START -->
+  <div class="staticOutline">
+  <div class="hometopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="index.html">&nbsp;Inicio&nbsp;</a></span>
+  </div>
+  <div class="maintopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page2.html">&nbsp;1. CRONOGRAMA DE CLASES&nbsp;</a></span>
+  </div>
+  <div class="maintopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page3.html">&nbsp;2. CONCEPTOS SOBRE SISTEMAS&nbsp;</a></span>
+  </div>
+  <div class="maintopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page4.html">&nbsp;3. LOS LÍMITES DEL SISTEMA&nbsp;</a></span>
+  </div>
+  <div class="maintopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page5.html">&nbsp;4. EL PENSAMIENTO EN SISTEMAS&nbsp;</a></span>
+  </div>
+  <div class="maintopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page6.html">&nbsp;5. PROBLEMAS SENCILLOS VS COMPLEJOS&nbsp;</a></span>
+  </div>
+  <div class="maintopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page7.html">&nbsp;6. UN EJEMPLO&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="LinkedDocuments/modeloPehuen.pdf">&nbsp;Diagramas del modelo&nbsp;</a></span>
+  </div>
+  <div class="maintopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page9.html">&nbsp;7. EL MÉTODO&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="LinkedDocuments/CLD%20metodo.ppt">&nbsp;CLD metodo.ppt&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page11.html">&nbsp;Modelo Conceptual CLD&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="select"><a href="Page12.html">&nbsp;Modelo Computacional&nbsp;</a></span>
+  </div>
+  <div class="maintopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page13.html">&nbsp;8. INSIGHT MAKER&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page14.html">&nbsp;Estructura del rebaño&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page15.html">&nbsp;Manejo Reproductivo&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page16.html">&nbsp;Aguadas&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page17.html">&nbsp;Forraje&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page18.html">&nbsp;Loops&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page19.html">&nbsp;Pastoreo ABM&nbsp;</a></span>
+  </div>
+  <div class="maintopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page20.html">&nbsp;9. EL MACROSCOPIO&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="LinkedDocuments/The-Macroscope.pdf">&nbsp;TEXTO COMPLETO&nbsp;</a></span>
+  </div>
+  <div class="maintopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page22.html">&nbsp;10. REFERENCIAS&nbsp;</a></span>
+  </div>
+  <div class="maintopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page23.html">&nbsp;11. DEFINICIONES&nbsp;</a></span>
+  </div>
+  <div class="maintopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page24.html">&nbsp;12. TAREAS&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page25.html">&nbsp;3 Sept virtual&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page26.html">&nbsp;12 Sept presencial&nbsp;</a></span>
+  </div>
+  <div class="maintopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page27.html">&nbsp;13. TÉRMINOS DE LA EVALUACIÓN&nbsp;</a></span>
+  </div>
+
+  </div>
+<!-- STATIC OUTLINE - END -->
+
+    </td>
+    <td class="bodyColumn">
+<!-- END SIDE NAVIGATION WRAPPER-->
+
+<table id="pageBody">
+ <col class="main">
+ <col class="right">
+
+
+<!--BEGIN PAGE BODY ITEM-->
+<tr class="topic">
+  <td class="main" valign="top" colspan="2">
+    <table>
+      <tr class="topicHeader">
+        <td class="topicImageColumn">
+
+        </td>
+        <td class="topicLineColumn">
+          <a name="Topic10"></a>
+          <span class=outlineNumberFirst></span><span class=topicLineFirst>Modelo Computacional</span>
+          <span class="topicIcons">
+
+          </span>
+        </td>
+      </tr>
+    </table>
+
+
+     <div class="topicTextNotes"><div align="left"><span style=" font-size:12pt">La din&#225;mica de
+sistemas y los modelos computacionales, que se emplean para
+representarlos, se basan en diagramas donde los principales
+componentes gr&#225;ficos (y de conceptos) de flujos y
+acumulaciones son las piezas fundamentales para su
+construcci&#243;n. A veces es algo dificultoso distinguir entre
+ambos elementos.</span></div>
+<div align="left"><span style=" font-size:12pt">En principio puede
+decirse que los stocks representan entidades f&#237;sicas que
+pueden acumularse, por ejemplo en un sistema de tanques que
+acumulan agua, puede considerarse como stocks al tanque del
+almacenamiento, los &#225;rboles se acumulan en el bosque. Los
+flujos son aquellas variables que producen cambios en los stocks,
+en este caso corresponde al llenado y vaciado compuestos por las
+ca&#241;er&#237;as de ingreso y egreso. Una forma de distinguir
+entre stocks y flows es preguntarse que pasar&#237;a si congelamos
+el tiempo y observamos el proceso. Si a&#250;n es posible
+visualizar alg&#250;n valor distinto de cero para una variable,
+entonces es un stock, pero si no puede ser medido entonces esa
+variables es un flujo. Un flujo ocurre sobre un per&#237;odo de
+tiempo, y en un instante en particular nada se mueve.</span></div>
+<br />
+&#160;
+<table width="621" cellpadding="6" style=
+"table-layout: fixed; border-collapse: collapse; border-color: #000000;">
+<colgroup>
+<col width="366" />
+<col width="255" /></colgroup>
+<tr>
+<td align="left" valign="top" width="59%" height="577" style=
+"border: solid #000000 0.50pt;">&#160;
+<div align="left">&#160;</div>
+<div align="left" class="lastTableNotesDiv"><img src=
+"NotesImages/Topic10NotesImage3.jpg" align="bottom" width="361"
+height="286" border="0" alt="graphic" /></div>
+</td>
+<td align="left" valign="top" width="41%" height="577" style=
+"border: solid #000000 0.50pt;">
+<div align="left" class="lastTableNotesDiv"><img src=
+"NotesImages/Topic10NotesImage4.jpg" align="bottom" width="233"
+height="517" border="0" alt="graphic" /></div>
+</td>
+</tr>
+</table>
+<div align="left"><span style=" font-size:12pt">&#160;</span></div>
+<div align="left">&#160;&#160;</div>
+<div align="left"><span style=
+" font-size:12pt">&#160;&#191;Qu&#233; es una Simulaci&#243;n en el
+Contexto de la Din&#225;mica de Sistemas?</span></div>
+<div align="left"><span style=" font-size:12pt">&#160;</span></div>
+<div align="left"><span style=" font-size:12pt">1.
+Introducci&#243;n a la Din&#225;mica de Sistemas:</span></div>
+<div align="left"><span style=" font-size:12pt">La din&#225;mica de
+sistemas es una metodolog&#237;a para comprender y analizar
+c&#243;mo los diferentes componentes de un sistema interact&#250;an
+entre s&#237; a lo largo del tiempo. Se utiliza para estudiar
+sistemas complejos en los que m&#250;ltiples variables est&#225;n
+interrelacionadas y afectan mutuamente su
+comportamiento.</span></div>
+<div align="left"><span style=" font-size:12pt">&#160;</span></div>
+<div align="left"><span style=" font-size:12pt">2. Definici&#243;n
+de Simulaci&#243;n:</span></div>
+<div align="left"><span style=" font-size:12pt">Una simulaci&#243;n
+en el contexto de la din&#225;mica de sistemas es una t&#233;cnica
+que utiliza modelos computacionales para replicar el comportamiento
+de un sistema real a lo largo del tiempo. Mediante la
+simulaci&#243;n, podemos observar c&#243;mo los cambios en las
+variables y par&#225;metros del sistema afectan su funcionamiento
+general sin necesidad de intervenir directamente en el sistema
+real.</span></div>
+<div align="left"><span style=" font-size:12pt">&#160;</span></div>
+<div align="left"><span style=" font-size:12pt">3. Importancia de
+la Simulaci&#243;n:</span></div>
+<div align="left"><span style=" font-size:12pt">- Exploraci&#243;n
+y Experimentaci&#243;n: Permite experimentar con diferentes
+escenarios y estrategias sin los riesgos y costos asociados a la
+experimentaci&#243;n en el mundo real.</span></div>
+<div align="left"><span style=" font-size:12pt">- Comprensi&#243;n
+y Visualizaci&#243;n: Ayuda a visualizar y comprender mejor la
+complejidad del sistema, facilitando la identificaci&#243;n de
+patrones, tendencias y comportamientos emergentes.</span></div>
+<div align="left"><span style=" font-size:12pt">- Toma de
+Decisiones: Proporciona una base s&#243;lida para la toma de
+decisiones, ya que permite evaluar el impacto potencial de
+diferentes pol&#237;ticas y acciones antes de
+implementarlas.</span></div>
+<div align="left"><span style=" font-size:12pt">&#160;</span></div>
+<div align="left"><span style=" font-size:12pt">4. Componentes de
+una Simulaci&#243;n en Din&#225;mica de Sistemas:</span></div>
+<div align="left"><span style=" font-size:12pt">- Modelos:
+Representaciones simplificadas del sistema real, que incluyen
+ecuaciones y reglas que describen las relaciones entre las
+variables.</span></div>
+<div align="left"><span style=" font-size:12pt">- Variables:
+Elementos clave del sistema que pueden cambiar a lo largo del
+tiempo (por ejemplo, poblaci&#243;n de rumiantes, disponibilidad de
+alimento, tasa de mortalidad).</span></div>
+<div align="left"><span style=" font-size:12pt">- Par&#225;metros:
+Valores constantes que caracterizan las propiedades del sistema
+(por ejemplo, tasa de crecimiento, eficiencia de conversi&#243;n de
+alimento).</span></div>
+<div align="left"><span style=" font-size:12pt">-
+Retroalimentaci&#243;n: Bucles de retroalimentaci&#243;n que
+muestran c&#243;mo las acciones de un componente del sistema
+afectan a otros componentes, y viceversa.</span></div>
+<div align="left"><span style=" font-size:12pt">&#160;</span></div>
+<div align="left"><span style=" font-size:12pt">5. Aplicaciones en
+la Producci&#243;n de Rumiantes Menores:</span></div>
+<div align="left"><span style=" font-size:12pt">En el contexto de
+la producci&#243;n de rumiantes menores, la simulaci&#243;n puede
+ser utilizada para:</span></div>
+<div align="left"><span style=" font-size:12pt">- Gestionar
+Recursos: Evaluar c&#243;mo diferentes estrategias de
+alimentaci&#243;n y manejo de pasturas afectan la productividad y
+sostenibilidad del sistema.</span></div>
+<div align="left"><span style=" font-size:12pt">- Optimizar
+Producci&#243;n: Analizar la relaci&#243;n entre la tasa de
+reproducci&#243;n, la mortalidad y la disponibilidad de recursos
+para maximizar la producci&#243;n.</span></div>
+<div align="left"><span style=" font-size:12pt">- Evaluar
+Pol&#237;ticas: Simular el impacto de pol&#237;ticas y
+pr&#225;cticas agr&#237;colas (como la rotaci&#243;n de pasturas,
+suplementaci&#243;n alimentaria) en la salud y el bienestar de los
+animales y en la rentabilidad del sistema.</span></div>
+<div align="left"><span style=" font-size:12pt">&#160;</span></div>
+<div align="left"><span style=" font-size:12pt">6. Ejemplo
+Pr&#225;ctico:</span></div>
+<div align="left"><span style=" font-size:12pt">Imagina que quieres
+saber c&#243;mo afectar&#225; una sequ&#237;a prolongada a tu
+sistema de producci&#243;n de rumiantes menores. Mediante la
+simulaci&#243;n, puedes ajustar los par&#225;metros relacionados
+con la disponibilidad de agua y alimento, y observar c&#243;mo
+estos cambios impactan la salud de los animales, la producci&#243;n
+de leche/carne y los costos operativos. Esto te permite desarrollar
+estrategias de mitigaci&#243;n eficaces antes de que ocurra la
+sequ&#237;a real.</span></div>
+<div align="left"><span style=" font-size:12pt">&#160;</span></div>
+<div align="left"><span style=" font-size:12pt">7.
+Conclusi&#243;n:</span></div>
+<div align="left"><span style=" font-size:12pt">La simulaci&#243;n
+en la din&#225;mica de sistemas es una herramienta poderosa que
+permite a los productores y t&#233;cnicos tomar decisiones
+informadas basadas en la comprensi&#243;n detallada de c&#243;mo
+los diferentes componentes de un sistema interact&#250;an a lo
+largo del tiempo. Al aplicar estas t&#233;cnicas a la
+producci&#243;n de rumiantes menores, se puede mejorar la
+eficiencia, sostenibilidad y resiliencia de los sistemas de
+producci&#243;n.</span></div>
+<div align="left"><span style=" font-size:12pt">&#160;</span></div>
+<div align="left"><span style=" font-size:12pt">&#160;</span></div>
+<div align="left"><span style=" font-size:12pt">COMO CONSTRUIR
+NUESTRO PRIMER MODELO DE SIMULACI&#211;N</span></div>
+<div align="left"><a href="LinkedDocuments/ch-2.pdf"><span style=
+" font-size:12pt">&#160;</span><span style=
+" font-size:12pt"><b>Cap&#237;tulo 2 - El m&#233;todo de los
+modelos</b></span></a></div>
+<div align="left"><span style=" font-size:12pt">&#160;</span></div></div>
+
+
+
+
+
+
+  </td>
+  <td class="right" valign="top">
+<!--right body column empty-->
+  </td>
+</tr>
+<!--END PAGE BODY ITEM-->
+
+
+<!-- BEGIN TOP BUTTON -->
+<tr class="topic">
+  <td class="main" valign="top" colspan="2">
+    <div class="body">
+      <div class="topCommand">
+        <span class="commands">
+	  <span class="command">
+            <img src="Res/images/top_button.gif" alt=""> 
+	      <a href="javascript:scroll(0,0)">
+	         <span class="label">Arriba</span>
+              </a>
+ 	</span>
+       </span>
+      </div>
+    </div>
+  </td>
+  <td class="right" valign="top">
+<!--right body column empty-->
+  </td>
+</tr>
+<!-- END TOP BUTTON -->
+
+</table>
+
+<!-- BEGIN SIDE NAVIGATION WRAPPER-->
+    </td>
+  </tr>
+</table> 
+<!-- END SIDE NAVIGATION WRAPPER-->
+
+<!-- END PAGE BODY-->
+
+<!---BEGIN FOOTER-->
+<table id="pageFooter">
+   <tr>
+      <!-- reserved for image <td class="left" rowspan="2"></td>-->
+      <td class="center" rowspan="2">
+         <div class="footerText"></div>
+      </td>
+      <td class="right">
+         <div class="hyperlink">
+            <span>   
+               <a href="" target="_blank">letourneau.federico@inta.gob.ar</a>
+            </span>
+         </div>
+      </td>
+   </tr>
+   <tr>
+      <td class="right">
+         <div class="lastUpdated">
+            <span>Last updated:</span>
+            <span>02/09/2024</span>
+         </div>
+      </td>
+   </tr>
+   <tr>
+     <td></td>
+   </tr>
+</table>
+<!---END FOOTER-->
+
+
+</body>
+</html>
+

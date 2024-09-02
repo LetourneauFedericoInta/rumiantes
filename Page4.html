@@ -1,0 +1,443 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+	"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <title>LOS LÍMITES DEL SISTEMA</title>
+   <script language="JavaScript" type="text/JavaScript" src="Res/code/shared.js"></script>
+   <script language="JavaScript" type="text/JavaScript" src="Res/code/boxController.js"></script>
+   <script language="JavaScript" type="text/JavaScript" src="Res/code/boxSettings.js"></script>
+   <link href="Res/styles/shared.css" rel="stylesheet" type="text/css">
+   <link href="Res/styles/StaticOutline.css" rel="stylesheet" type="text/css">
+</head>
+<body id="page" onload="init()">
+<!-- BEGIN PAGE HEADER -->
+<table id="pageHeader">
+   <tr>
+      <td class="left" rowspan="3">
+         <a class="noHover" href="index.html" target="_parent">
+         <img src="Res/images/logo.gif" alt=""></a> 
+      </td>
+      <td class="right">
+<!-- BEGIN TOOLS UTILITIES--> 
+<div class="utilities">
+  <span class="command">
+    <a href="index.html" target="_parent">
+      <span class="label">Inicio</span>
+    </a>
+  </span>
+<span class="utilities_toc">
+|
+  <span class="command">
+    <a href="contents.htm" target="_parent">
+      <span class="label">Contenido</span>
+    </a>
+  </span>
+</span>
+
+
+</div>
+<!-- END TOOLS UTILITIES--> 
+
+      </td>
+   </tr>
+   <tr>
+      <td class="right">
+        <div class="mapName">Introducción a Sistemas y Simulación de sus Dinámicas.</div>
+      </td>
+   </tr>
+   <tr>
+      <td class="right">
+        <div class="contactInformation">Sistemas de Producción de Rumiantes Menores. Docentes: Sebastián Villagra, Esteban Jockers, Federico Letourneau, Sofía Hara, Maestría en Producción de Rumiantes Menores. INTA EEA Bariloche - Univ. Nac. del Comahue Fac. Cs Agrarias - Univ. Nac de Rosario Fac. Cs. Agrarias&nbsp;&nbsp;<a href="mailto:"></a></div>
+      </td>
+   </tr>
+</table>
+<!-- END PAGE HEADER -->
+
+<!-- BEGIN PAGE BODY-->
+
+<!-- BEGIN SIDE NAVIGATION WRAPPER-->
+<table>
+  <tr>
+    <td class="outlineColumn">
+    <!-- Ensure minimum width of outline-->
+    <img class="emptyImage" src="Res/images/empty.gif" 
+        width="190" height="1" alt=""><br>									
+<!-- STATIC OUTLINE - START -->
+  <div class="staticOutline">
+  <div class="hometopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="index.html">&nbsp;Inicio&nbsp;</a></span>
+  </div>
+  <div class="maintopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page2.html">&nbsp;1. CRONOGRAMA DE CLASES&nbsp;</a></span>
+  </div>
+  <div class="maintopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page3.html">&nbsp;2. CONCEPTOS SOBRE SISTEMAS&nbsp;</a></span>
+  </div>
+  <div class="maintopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="select"><a href="Page4.html">&nbsp;3. LOS LÍMITES DEL SISTEMA&nbsp;</a></span>
+  </div>
+  <div class="maintopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page5.html">&nbsp;4. EL PENSAMIENTO EN SISTEMAS&nbsp;</a></span>
+  </div>
+  <div class="maintopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page6.html">&nbsp;5. PROBLEMAS SENCILLOS VS COMPLEJOS&nbsp;</a></span>
+  </div>
+  <div class="maintopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page7.html">&nbsp;6. UN EJEMPLO&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="LinkedDocuments/modeloPehuen.pdf">&nbsp;Diagramas del modelo&nbsp;</a></span>
+  </div>
+  <div class="maintopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page9.html">&nbsp;7. EL MÉTODO&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="LinkedDocuments/CLD%20metodo.ppt">&nbsp;CLD metodo.ppt&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page11.html">&nbsp;Modelo Conceptual CLD&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page12.html">&nbsp;Modelo Computacional&nbsp;</a></span>
+  </div>
+  <div class="maintopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page13.html">&nbsp;8. INSIGHT MAKER&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page14.html">&nbsp;Estructura del rebaño&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page15.html">&nbsp;Manejo Reproductivo&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page16.html">&nbsp;Aguadas&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page17.html">&nbsp;Forraje&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page18.html">&nbsp;Loops&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page19.html">&nbsp;Pastoreo ABM&nbsp;</a></span>
+  </div>
+  <div class="maintopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page20.html">&nbsp;9. EL MACROSCOPIO&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="LinkedDocuments/The-Macroscope.pdf">&nbsp;TEXTO COMPLETO&nbsp;</a></span>
+  </div>
+  <div class="maintopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page22.html">&nbsp;10. REFERENCIAS&nbsp;</a></span>
+  </div>
+  <div class="maintopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page23.html">&nbsp;11. DEFINICIONES&nbsp;</a></span>
+  </div>
+  <div class="maintopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page24.html">&nbsp;12. TAREAS&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page25.html">&nbsp;3 Sept virtual&nbsp;</a></span>
+  </div>
+  <div class="subtopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page26.html">&nbsp;12 Sept presencial&nbsp;</a></span>
+  </div>
+  <div class="maintopic">
+	<img src="Res/images/arrow.gif" alt=""><span class="unselect"><a href="Page27.html">&nbsp;13. TÉRMINOS DE LA EVALUACIÓN&nbsp;</a></span>
+  </div>
+
+  </div>
+<!-- STATIC OUTLINE - END -->
+
+    </td>
+    <td class="bodyColumn">
+<!-- END SIDE NAVIGATION WRAPPER-->
+
+<table id="pageBody">
+ <col class="main">
+ <col class="right">
+
+
+<!--BEGIN PAGE BODY ITEM-->
+<tr class="topic">
+  <td class="main" valign="top" colspan="2">
+    <table>
+      <tr class="topicHeader">
+        <td class="topicImageColumn">
+
+        </td>
+        <td class="topicLineColumn">
+          <a name="Topic4"></a>
+          <span class=outlineNumberFirst>3. </span><span class=topicLineFirst>LOS LÍMITES DEL SISTEMA</span>
+          <span class="topicIcons">
+
+          </span>
+        </td>
+      </tr>
+    </table>
+
+
+     <div class="topicTextNotes"><div align="left"><span style=" font-size:12pt">El proceso por el
+cu&#225;l se define los l&#237;mites de un sistema, empleando el
+principio de parsimonia, o la Navaja de Ockham, implica delimitar
+el sistema de la manera m&#225;s simple y eficiente posible,
+evitando a&#241;adir complejidad innecesaria, concentr&#225;ndote
+en lo esencial. Esto permite un an&#225;lisis m&#225;s claro y
+efectivo, evitando la sobrecarga de informaci&#243;n y recursos en
+el estudio o la gesti&#243;n del sistema.</span></div>
+<div align="left">&#160;</div>
+<div align="left"><span style=" font-size:12pt">La Ley de la
+Parsimonia, o Navaja de Ockham, es un principio filos&#243;fico que
+sugiere optar por la explicaci&#243;n m&#225;s simple entre varias
+posibles, eliminando suposiciones innecesarias. Al aplicar este
+principio a la delimitaci&#243;n de los l&#237;mites de un sistema,
+se busca definir sus fronteras de la manera m&#225;s clara y
+eficiente posible. Este enfoque permite identificar los elementos
+esenciales del sistema y excluir aquellos que no son cruciales para
+su funcionamiento, facilitando un an&#225;lisis m&#225;s preciso y
+manejable del mismo. La Ley de la Parsimonia, por tanto, act&#250;a
+como una herramienta para simplificar y clarificar la estructura y
+los l&#237;mites del sistema, asegurando que solo los componentes
+indispensables sean considerados.</span></div>
+<div align="left"><span style=" font-size:12pt">A continuaci&#243;n
+se describe como puede aplicarse el marco conceptual de este
+principio a la delimitaci&#243;n de un sistema:</span></div>
+<br />
+&#160;
+<table width="672" cellpadding="6" style=
+"table-layout: fixed; border-collapse: collapse; border-color: #000000;">
+<colgroup>
+<col width="403" />
+<col width="269" /></colgroup>
+<tr>
+<td align="center" valign="top" width="60%" style=
+"border: solid #000000 0.50pt;">
+<div align="center" class="lastTableNotesDiv"><img src=
+"NotesImages/Topic4NotesImage3.gif" align="bottom" width="276"
+height="276" border="0" alt="graphic" /></div>
+</td>
+<td align="left" valign="top" width="40%" style=
+"border: solid #000000 0.50pt;"><span style=" font-size:12pt">a.
+Identificar el Prop&#243;sito del An&#225;lisis</span>
+<div align="left"><span style=" font-size:12pt">&#160;&#160;&#160;
+- Preg&#250;ntate: &#191;Cu&#225;l es el objetivo principal al
+estudiar o modelar este sistema?</span></div>
+<div align="left"><span style=" font-size:12pt">&#160;&#160;&#160;
+- Aplicaci&#243;n del Principio de Parsimonia: Define los
+l&#237;mites del sistema poniendo el foco solo en los elementos y
+relaciones que son esenciales para cumplir con el prop&#243;sito.
+Excluye cualquier elemento que no sea crucial para entender o
+mejorar el sistema.</span></div>
+</td>
+</tr>
+</table>
+<div align="center">&#160;</div>
+<div align="left"><span style=" font-size:12pt">&#160;</span></div>
+<table width="672" cellpadding="6" style=
+"table-layout: fixed; border-collapse: collapse; border-color: #000000;">
+<colgroup>
+<col width="268" />
+<col width="404" /></colgroup>
+<tr>
+<td align="left" valign="top" width="40%" style=
+"border: solid #000000 0.50pt;"><span style=
+" font-size:12pt">&#160;b. Seleccionar los Elementos
+Relevantes</span>
+<div align="left"><span style=" font-size:12pt">&#160;&#160;&#160;
+- Preg&#250;ntate: &#191;Qu&#233; componentes son absolutamente
+necesarios para que el sistema funcione seg&#250;n el
+prop&#243;sito definido?</span></div>
+<div align="left"><span style=" font-size:12pt">&#160;&#160;&#160;
+- Aplicaci&#243;n del Principio de Parsimonia: Incluye solo
+aquellos componentes que tienen un impacto directo y significativo
+en el comportamiento del sistema. Si un componente puede ser
+eliminado sin afectar el funcionamiento o el resultado, entonces
+ese componente deber&#237;a quedar fuera del sistema.</span></div>
+</td>
+<td align="center" valign="top" width="60%" style=
+"border: solid #000000 0.50pt;">
+<div align="center" class="lastTableNotesDiv"><img src=
+"NotesImages/Topic4NotesImage4.gif" align="bottom" width="307"
+height="307" border="0" alt="graphic" /></div>
+</td>
+</tr>
+</table>
+<div align="left"><span style=" font-size:12pt">&#160;</span></div>
+<div align="left"><span style=" font-size:12pt">&#160;</span></div>
+<table width="672" cellpadding="6" style=
+"table-layout: fixed; border-collapse: collapse; border-color: #000000;">
+<colgroup>
+<col width="409" />
+<col width="263" /></colgroup>
+<tr>
+<td align="center" valign="top" width="61%" style=
+"border: solid #000000 0.50pt;">
+<div align="center" class="lastTableNotesDiv"><img src=
+"NotesImages/Topic4NotesImage5.gif" align="bottom" width="328"
+height="328" border="0" alt="graphic" /></div>
+</td>
+<td align="left" valign="top" width="39%" style=
+"border: solid #000000 0.50pt;"><span style=" font-size:12pt">c.
+Simplificar las Interacciones</span>
+<div align="left"><span style=" font-size:12pt">&#160;&#160;&#160;
+- Preg&#250;ntate: &#191;Qu&#233; interacciones entre los
+componentes son fundamentales para la din&#225;mica del
+sistema?</span></div>
+<div align="left"><span style=" font-size:12pt">&#160;&#160;&#160;
+- Aplicaci&#243;n del Principio de Parsimonia: Mant&#233;n solo las
+interacciones que son esenciales para el funcionamiento del
+sistema. Evita a&#241;adir interacciones que compliquen
+innecesariamente el an&#225;lisis o la operaci&#243;n del
+sistema.</span></div>
+</td>
+</tr>
+</table>
+<br />
+&#160;
+<table width="672" cellpadding="6" style=
+"table-layout: fixed; border-collapse: collapse; border-color: #000000;">
+<colgroup>
+<col width="205" />
+<col width="467" /></colgroup>
+<tr>
+<td align="left" valign="top" width="31%" style=
+"border: solid #000000 0.50pt;"><span style=" font-size:12pt">d.
+Definici&#243;n del Entorno</span>
+<div align="left"><span style=" font-size:12pt">&#160;&#160;&#160;
+- Preg&#250;ntate: &#191;Qu&#233; factores externos influyen
+directamente en el sistema y cu&#225;les pueden ser ignorados sin
+perder precisi&#243;n en el an&#225;lisis?</span></div>
+<div align="left"><span style=" font-size:12pt">&#160;&#160;&#160;
+- Aplicaci&#243;n del Principio de Parsimonia: Define el entorno
+del sistema de manera que solo incluya los factores externos que
+tienen una influencia significativa y directa sobre el sistema.
+Esto ayuda a evitar la expansi&#243;n innecesaria de los
+l&#237;mites del sistema.</span></div>
+</td>
+<td align="center" valign="top" width="69%" style=
+"border: solid #000000 0.50pt;">
+<div align="center" class="lastTableNotesDiv"><img src=
+"NotesImages/Topic4NotesImage6.gif" align="bottom" width="410"
+height="410" border="0" alt="graphic" /></div>
+</td>
+</tr>
+</table>
+<div align="left"><span style=" font-size:12pt">&#160;</span></div>
+<br />
+&#160;
+<table width="672" cellpadding="6" style=
+"table-layout: fixed; border-collapse: collapse; border-color: #000000;">
+<colgroup>
+<col width="456" />
+<col width="216" /></colgroup>
+<tr>
+<td align="center" valign="top" width="68%" style=
+"border: solid #000000 0.50pt;">
+<div align="center" class="lastTableNotesDiv"><img src=
+"NotesImages/Topic4NotesImage7.gif" align="bottom" width="399"
+height="399" border="0" alt="graphic" /></div>
+</td>
+<td align="left" valign="top" width="32%" style=
+"border: solid #000000 0.50pt;"><span style=
+" font-size:12pt">&#160;</span>
+<div align="left"><span style=" font-size:12pt">e. Revisi&#243;n de
+Suposiciones&#160;</span></div>
+<div align="left"><span style=" font-size:12pt">&#160;&#160;&#160;
+- Preg&#250;ntate: &#191;Estoy haciendo suposiciones innecesarias
+sobre el sistema o su entorno?</span></div>
+<div align="left"><span style=" font-size:12pt">&#160;&#160;&#160;
+- Aplicaci&#243;n del Principio de Parsimonia: Revisa las
+suposiciones para asegurarte de que no est&#225;s a&#241;adiendo
+complejidad que no es necesaria. Si una suposici&#243;n no es
+indispensable para el entendimiento o modelado del sistema,
+desc&#225;rtala.</span></div>
+</td>
+</tr>
+</table>
+<div align="left"><span style=" font-size:12pt">&#160;</span></div>
+<div align="left"><span style=" font-size:12pt">&#160;</span></div>
+<div align="left"><span style=" font-size:12pt">&#160;</span></div>
+<div align="left"><span style=" font-size:12pt">&#160;</span></div>
+<div align="left"><span style=" font-size:12pt">&#160;</span></div>
+<div align="left"><span style=" font-size:12pt">&#160;</span></div>
+<div align="left"><span style=" font-size:12pt">&#160;</span></div></div>
+
+
+
+
+
+
+  </td>
+  <td class="right" valign="top">
+<!--right body column empty-->
+  </td>
+</tr>
+<!--END PAGE BODY ITEM-->
+
+
+<!-- BEGIN TOP BUTTON -->
+<tr class="topic">
+  <td class="main" valign="top" colspan="2">
+    <div class="body">
+      <div class="topCommand">
+        <span class="commands">
+	  <span class="command">
+            <img src="Res/images/top_button.gif" alt=""> 
+	      <a href="javascript:scroll(0,0)">
+	         <span class="label">Arriba</span>
+              </a>
+ 	</span>
+       </span>
+      </div>
+    </div>
+  </td>
+  <td class="right" valign="top">
+<!--right body column empty-->
+  </td>
+</tr>
+<!-- END TOP BUTTON -->
+
+</table>
+
+<!-- BEGIN SIDE NAVIGATION WRAPPER-->
+    </td>
+  </tr>
+</table> 
+<!-- END SIDE NAVIGATION WRAPPER-->
+
+<!-- END PAGE BODY-->
+
+<!---BEGIN FOOTER-->
+<table id="pageFooter">
+   <tr>
+      <!-- reserved for image <td class="left" rowspan="2"></td>-->
+      <td class="center" rowspan="2">
+         <div class="footerText"></div>
+      </td>
+      <td class="right">
+         <div class="hyperlink">
+            <span>   
+               <a href="" target="_blank">letourneau.federico@inta.gob.ar</a>
+            </span>
+         </div>
+      </td>
+   </tr>
+   <tr>
+      <td class="right">
+         <div class="lastUpdated">
+            <span>Last updated:</span>
+            <span>02/09/2024</span>
+         </div>
+      </td>
+   </tr>
+   <tr>
+     <td></td>
+   </tr>
+</table>
+<!---END FOOTER-->
+
+
+</body>
+</html>
+
